@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejertabla.css">
+    <title>Requisitos de TechZone Store</title>
+   
+</head>
+<body>
+    <h1>Requisitos de TechZone Store</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Funcionalidad</th>
+                <th>Descripción</th>
+                <th> Tiempo de entrega </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Catálogo de productos</td>
+                <td>Los clientes pueden ver todos los productos organizados en categorías.</td>
+                <td> 2 semanas </td>
+            </tr>
+            <tr>
+                <td>Detalles del producto</td>
+                <td>Cada producto tiene una descripción, precio y opción de agregar al carrito.</td>
+                <td> -------------</td>
+            </tr>
+            <tr>
+                <td>Carrito de compras</td>
+                <td>Los clientes pueden añadir productos al carrito y proceder a la compra.</td>
+                <td> 1 semana </td>
+            </tr>
+            <tr>
+                <td>Registro e inicio de sesión</td>
+                <td>Los usuarios pueden registrarse con correo o iniciar sesión en su cuenta.</td>
+                <td> 2 semanas </td>
+            </tr>
+            <tr>
+                <td>Historial de pedidos</td>
+                <td>Los usuarios pueden revisar compras anteriores y actualizar su dirección de envío.</td>
+                <td> 1 semana </td>
+            </tr>
+            <tr>
+                <td>Opciones de pago</td>
+                <td>Los clientes pueden pagar con tarjeta de crédito o PayPal.</td>
+                <td> 2 semanas </td>
+            </tr>
+            <tr>
+                <td>Cálculo del envío</td>
+                <td>El costo de envío se muestra antes de proceder con el pago.</td>
+                <td> ------------- </td>
+            </tr>
+            <tr>
+                <td>Confirmación de compra</td>
+                <td>Se confirma la compra y se envía notificación al usuario.</td>
+                <td> 1 semana </td>
+            </tr>
+            <tr>
+                <td>Notificaciones</td>
+                <td>Los usuarios reciben notificaciones por correo cuando el pedido se ha enviado.</td>
+                <td> 1 semana </td>
+            </tr>
+            <tr>
+                <td>Seguimiento del pedido</td>
+                <td>Los usuarios pueden hacer seguimiento del estado de su pedido en tiempo real.</td>
+                <td>  5-7 dias Habiles  </td>
+            </tr>
+            <tr>
+                <td>Plazo de entrega</td>
+                <td>El lanzamiento está previsto en un plazo de 3 meses para estar listo antes de la temporada navideña.</td>
+                <td>  1 semana  </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <h2> RESUMEN </h2>
+    <h3> Diseño de Arquitectura </h3>
+    <ol>
+    <li>
+        React para una interfaz ágil y responsiva, adaptada a móviles y tablets.
+
+    </li>
+    <li>
+        Backend con Node.js.
+    </li>
+    <li>
+        Base de datos MongoDB 
+    </li>
+    <li>
+        Integración de la pasarela de pago Stripe para tarjetas y Coinbase Commerce para criptomonedas.
+    </li>
+</ol>
+    <h3> Implementación </h3>
+    <ul>
+    <li> 
+        Configurar la API REST para gestionar el catálogo de productos, el carrito y los pagos.
+    </li>
+   
+    
+    <li>
+         Crear interfaces atractivas con React, incluyendo un sistema de recomendación de productos.  
+    </li>
+       
+     <li>
+         Integrar las opciones de pago y configurar los cupones de descuento en tiempo real.
+    </li>
+       
+    </ul>
+
+    <h3> Pruebas </h3>
+    <ol>
+        <li> 
+            Realizar pruebas de carga con herramientas como JMeter 
+        </li>
+        <br>
+        <li> 
+            Testear todos los flujos de compra y la funcionalidad del carrito con diferentes dispositivos y navegadores.
+        </li>
+    </ol>
+    <h3> Despliegue y Mantenimiento </h3>
+    <p> Desplegar la aplicación en AWS para asegurar escalabilidad, con balanceadores de carga y respaldo automatizado. </p>
+    <p> Monitorear el rendimiento de la aplicación usando CloudWatch, y establecer ciclos de actualización periódicos para mejoras y nuevos lanzamientos de productos. </p>
+</body>
+</html>
